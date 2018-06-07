@@ -1,13 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class Menu extends React.Component {
 
     static propTypes = {
-        views: React.PropTypes.object.isRequired,
-        resolvePath: React.PropTypes.func.isRequired,
-        MenuContainer: React.PropTypes.func.isRequired,
-        MenuGroup: React.PropTypes.func.isRequired,
-        MenuItem: React.PropTypes.func.isRequired,
+        views: PropTypes.object.isRequired,
+        resolvePath: PropTypes.func.isRequired,
+        MenuContainer: PropTypes.func.isRequired,
+        MenuGroup: PropTypes.func.isRequired,
+        MenuItem: PropTypes.func.isRequired,
     }
 
     render() {

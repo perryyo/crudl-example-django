@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class SplitDateTimeField extends React.Component {
 
     static propTypes = {
-        getTime: React.PropTypes.func.isRequired,
-        getDate: React.PropTypes.func.isRequired,
+        getTime: PropTypes.func.isRequired,
+        getDate: PropTypes.func.isRequired,
     }
 
     render() {
